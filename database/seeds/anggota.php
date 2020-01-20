@@ -13,33 +13,33 @@ class anggota extends Seeder
     {
         \App\Anggota_model::insert([
         [
-            'nama_anggota'=>'abel',
-            'alamat'=>'jl jalan',
-            'telp'=>'0812345678',
+            'nama_anggota'=>'Tegar',
+            'alamat'=>'jl mawar',
+            'telp'=>'0821041',
             'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
         ],
         [
-            'nama_anggota'=>'athallah',
-            'alamat'=>'jl jalan',
-            'telp'=>'0812345678',
+            'nama_anggota'=>'Harianto',
+            'alamat'=>'jl melati',
+            'telp'=>'088410401',
             'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
         ],
         [
-            'nama_anggota'=>'wiyangga',
+            'nama_anggota'=>'Putra',
             'alamat'=>'jl jalan',
-            'telp'=>'0812345678',
+            'telp'=>'0853251',
             'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
         ],
         [
-            'nama_anggota'=>'atha',
-            'alamat'=>'jl jalan',
-            'telp'=>'0812345678',
+            'nama_anggota'=>'Hari',
+            'alamat'=>'jl in aja dulu',
+            'telp'=>'082153',
             'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
         ],
         [
-            'nama_anggota'=>'abelino',
-            'alamat'=>'jl jalan',
-            'telp'=>'0812345678',
+            'nama_anggota'=>'Anto',
+            'alamat'=>'jl danau ranau',
+            'telp'=>'084512315',
             'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
         ]
 

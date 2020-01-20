@@ -13,37 +13,37 @@ class buku extends Seeder
     {
         \App\Buku_model::insert([
             [
-                'judul'=>'Ilmu Pengetahuan Sosial',
-                'penerbit'=>'Erlagga',
-                'pengarang'=>'Budi Setiawan',
-                'foto'=>'-',
-                'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
-            ],
-            [
-                'judul'=>'Ilmu Dasar Matematika',
+                'judul'=>'Matematika',
                 'penerbit'=>'Erlangga',
-                'pengarang'=>'Budi Setiawan',
+                'pengarang'=>'Bambang Mulyanto',
                 'foto'=>'-',
                 'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
             ],
             [
-                'judul'=>'Ronaldowati ',
-                'penerbit'=>'Gagas Media',
-                'pengarang'=>'Roy Marten',
+                'judul'=>'Ilmu Pengetahuan Alam',
+                'penerbit'=>'Erlangga',
+                'pengarang'=>'Mulyadi',
                 'foto'=>'-',
                 'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
             ],
             [
-                'judul'=>'Si Buta Dari Goa Hantu',
-                'penerbit'=>'Gramedia',
-                'pengarang'=>'Wawan Budianto',
+                'judul'=>'Bujang Lapuk',
+                'penerbit'=>'Media Hits',
+                'pengarang'=>'Harianto Putra',
                 'foto'=>'-',
                 'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
             ],
             [
-                'judul'=>'Pendekar Cilik',
-                'penerbit'=>'Mizan',
-                'pengarang'=>'Budi Cahya',
+                'judul'=>'Bandung Lautan Api',
+                'penerbit'=>'Media Intertainment',
+                'pengarang'=>'Joko Sabuanto',
+                'foto'=>'-',
+                'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
+            ],
+            [
+                'judul'=>'Pertempuran Ambarawa',
+                'penerbit'=>'Dopung',
+                'pengarang'=>'Budi Santoso',
                 'foto'=>'-',
                 'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
             ]

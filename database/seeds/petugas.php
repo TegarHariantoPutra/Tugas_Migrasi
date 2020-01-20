@@ -13,43 +13,43 @@ class petugas extends Seeder
     {
         \App\Petugas_model::insert([
             [
-                'nama_petugas'=>'Abel',
-                'alamat'=>'Jl Mangga',
-                'telp'=>'089765433',
-                'username'=>'Abelino',
-                'password'=>'123',
-                'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
-            ],
-            [
-                'nama_petugas'=>'Atha',
-                'alamat'=>'Jl Apel',
-                'telp'=>'082341567',
-                'username'=>'Athallah',
-                'password'=>'123',
-                'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
-            ],
-            [
-                'nama_petugas'=>'Fynas ',
-                'alamat'=>'Jl Blimbing',
-                'telp'=>'081234567',
-                'username'=>'Malfynas',
-                'password'=>'123',
-                'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
-            ],
-            [
                 'nama_petugas'=>'Tegar',
-                'alamat'=>'Jl Jeruk',
-                'telp'=>'085463289',
-                'username'=>'Harianto',
-                'password'=>'123',
+                'alamat'=>'Jl Pelangi',
+                'telp'=>'086316361',
+                'username'=>'Tegar',
+                'password'=>'1234',
                 'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
             ],
             [
-                'nama_petugas'=>'Rafi',
-                'alamat'=>'Jl Salak',
-                'telp'=>'034219876',
-                'username'=>'Raihan',
-                'password'=>'123',
+                'nama_petugas'=>'Harianto',
+                'alamat'=>'Jl Batu',
+                'telp'=>'0823442113',
+                'username'=>'Harianto',
+                'password'=>'1234',
+                'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
+            ],
+            [
+                'nama_petugas'=>'Putra',
+                'alamat'=>'Jl kerikil',
+                'telp'=>'0812321412',
+                'username'=>'Putra',
+                'password'=>'1234',
+                'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
+            ],
+            [
+                'nama_petugas'=>'Budi',
+                'alamat'=>'Jl Pohon',
+                'telp'=>'0854641413',
+                'username'=>'Budi',
+                'password'=>'1234',
+                'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
+            ],
+            [
+                'nama_petugas'=>'Putri',
+                'alamat'=>'Jl Raya',
+                'telp'=>'0342191316',
+                'username'=>'Putri',
+                'password'=>'1234',
                 'created_at'=> \Carbon\Carbon::now('Asia/Jakarta')
             ]
         ]);
