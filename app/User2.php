@@ -7,19 +7,19 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
-class User extends Authenticatable implements JWTSubject
+class User2 extends Authenticatable implements JWTSubject
 {
-    protected $table="petugas";
+    protected $table="anggota";
     public $timestamps=false;
     use Notifiable;
 
-    /**
+    /**     
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'nama_petugas', 'alamat', 'telp', 'username', 'password', 'level'
+        'nama_anggota', 'alamat', 'telp', 'username', 'password', 'level'
     ];
 
     /**
